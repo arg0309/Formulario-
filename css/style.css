@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+
+}
+/* header */
+header {
+    width: 100%;
+    height: 10vh;
+}
+header nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #ec6c1f;
+}
+header nav button{
+    margin-left: 20px;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: black;
+    transition: ease-in-out 1s;
+}
+header nav button:hover{
+    background-color: azure;
+    cursor: pointer;
+    transform: translate(100px);
+}
+header nav button a{
+    color: #ec6c1f;
+    text-decoration: none;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 700;
+}
+
+/* container1 */
+main{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 190vh;
+    background-color: black;
+}
+
+/* .container .div{
+    width: 0px;
+    height: 10vh;
+    display: flex;
+    margin-top: 0px;
+    background-color: brown;
+} */
+.container h1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    /* background-color: brown; */
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 2rem;
+    color: #ec6c1f;
+}
+p{
+    font-family: 'Noto Sans SC', sans-serif;
+    /* background-color: rgb(100, 98, 98); */
+    color: azure;
+}
+input{
+    border-radius: 5px;
+}
+.container .row{
+    width: 100%;
+    height: 90%; 
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.container .row .row1{
+    width: 50%;
+    height: 95%;
+    margin-left: 40px;
+    /* text-align: center; */
+    display: flex;
+    /* align-items: center; */
+    /* background-color: burlywood; */
+}
+
+.container .row .row1 form:nth-child(1){
+    width: 100%;
+    height: 90%;
+    margin-left: 20px;
+    /* background-color: darkgoldenrod; */
+}
+
+.container .row .row1 form:nth-child(1) .form-group1 h2{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: #ec6c1f;
+}
+
+.container .row .row1 form:nth-child(1) .form-group4{
+    margin-top: 90px;
+
+}
+
+.container .row .row1 form:nth-child(1) .form-group4 h3{
+    color: #ec6c1f;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans SC', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* .container .row .row1 form:nth-child(2){
+    width: 100%;
+    height: 90%;
+} */
+
+.container .row .row2{
+    width: 50%;
+    height: 95%;
+    margin-left: 40px;
+    display: flex;
+    /* background-color: darkcyan; */
+}
+
+.container .row .row2 form:nth-child(1){
+    width: 100%;
+    height: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container .row .row2 form .form-group6 h4{
+    margin-top: 20px;
+    margin-bottom: 17px;
+    color: #ec6c1f;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans SC', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+/* final container */
+/* container1 */
+
+.container1{
+    width: 100%;
+    height: 40vh;
+    background-color: #ec6c1f;
+}
+.container1 .row0{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* margin-bottom: 0px; */
+}
+.container1 .row0 .form-group8 h5{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.5rem;
+}
+.container1 .row0 .form-group9{
+    display: flex;
+}
+.container1 .row0 .form-group9 p{
+    font-size: 1.2rem;
+    font-family: 'Noto Sans SC', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    color: black;
+}
+.container1 .row3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.container1 .row3 button{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: black;
+    color: azure;
+    border-radius: 5px;
+}
+.container1 .row3 button:hover{
+    cursor: pointer;
+    background-color: azure;
+    color: black;
+}
+@media (max-width:1080px){
+    .container{
+        height: 100%;
+    }
+    .container .row .row1{
+        margin-left: 5px;
+    }
+    .container .row .row1 form:nth-child(1) .form-group4 h3{
+        font-size: 1.3em;
+    }  
+    .container .row .row2{
+        margin-left: 5px;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        height: 100%;
+    }
+    .container h1{
+        font-size: 1.5em;
+    } 
+    .container .row .row1 form:nth-child(1) .form-group1 h2{
+        font-size: 1.3em;
+    }
+    .container .row .row2 form .form-group6 h4{
+        font-size: 1.3em;
+    }
+      
+    .container1{
+        height: 100%;
+    }
+    .container1 .row0 .form-group8 h5{
+        font-size: 1.3em;
+    }
+    .container1 .row3{
+        margin-top: 20px;
+    }
+    .container1 .row3 button{
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
+}
+@media(max-width:480px){
+    .container{
+        height: 100%;
+    }
+    .container .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .row .row1{
+       width: 100%;
+       margin-left: 0px;
+    }
+    .container .row .row2{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .container1 .row0 .form-group9{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .container1 .row0 .form-group9 p{
+        font-size: 1em;
+        font-weight: 500;
+    }
+}
+@media(max-width:370px){
+    .container1 .row0 .form-group9{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1 .row0 .form-group9 p{
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+}
